@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaMongoDB.Api", "LivrariaMongoDB.Api\LivrariaMongoDB.Api.csproj", "{367098FB-4F1F-4AE9-BE18-68F318B803B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaMongoDB.Domain", "LivrariaMongoDB.Domain\LivrariaMongoDB.Domain.csproj", "{2428DF34-6970-4FC3-B357-9C8F7DCBDBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaMongoDB.Infra", "LivrariaMongoDB.Infra\LivrariaMongoDB.Infra.csproj", "{9948B66C-0148-4798-8A63-AE453DCABCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivrariaMongoDB.Infra.Data", "LivrariaMongoDB.Infra.Data\LivrariaMongoDB.Infra.Data.csproj", "{445F2164-9321-4904-8B64-D0F9D54C2116}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{367098FB-4F1F-4AE9-BE18-68F318B803B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367098FB-4F1F-4AE9-BE18-68F318B803B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367098FB-4F1F-4AE9-BE18-68F318B803B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367098FB-4F1F-4AE9-BE18-68F318B803B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2428DF34-6970-4FC3-B357-9C8F7DCBDBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2428DF34-6970-4FC3-B357-9C8F7DCBDBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2428DF34-6970-4FC3-B357-9C8F7DCBDBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2428DF34-6970-4FC3-B357-9C8F7DCBDBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9948B66C-0148-4798-8A63-AE453DCABCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9948B66C-0148-4798-8A63-AE453DCABCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9948B66C-0148-4798-8A63-AE453DCABCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9948B66C-0148-4798-8A63-AE453DCABCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445F2164-9321-4904-8B64-D0F9D54C2116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445F2164-9321-4904-8B64-D0F9D54C2116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445F2164-9321-4904-8B64-D0F9D54C2116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445F2164-9321-4904-8B64-D0F9D54C2116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
